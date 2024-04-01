@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+  --orange: rgba(255, 107, 2, 0.989);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+}
+
+body{
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: var(--light-grey);
+  background-color: var(--very-dark-blue);
+}
+
+.rating-container, .thankyou-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+  background-color: var(--dark-blue);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.hidden{
+  display: none;
+}
+
+h1{
+  color: var(--white);
+  margin-bottom: 15px;
+}
+
+/* RATING CONTAINER */
+
+.star-icon{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: var(--very-dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rating-container p{
+  margin-bottom: 20px;
+}
+
+.ratings ul{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.rating-el{
+  background-color: var(--very-dark-blue);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.rating-el:hover{
+  background-color: var(--orange);
+  color: white;
+}
+
+#button-el{
+  background-color: var(--orange) ;
+  color: var(--white);
+  padding: 8px;
+  border: none;
+  border-radius: 50px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+#button-el:hover{
+  background-color: var(--white);
+  color: var(--orange);
+}
+
+/* THANK YOU CONTAINER */
+
+.thankyou-container{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.thankyou-container img{
+  width: 150px;
+  margin-bottom: 25px;
+}
+
+.thankyou-container span{
+  background-color: var(--very-dark-blue);
+  border-radius: 50px;
+  padding: 5px 10px;
+  color: var(--orange);
+  margin-bottom: 25px;
+}
+
+.thankyou-container p{
+  margin-bottom: 15px;
+}
+
+.attribution{
+  margin-top: 50px;
+}
+
+
+
