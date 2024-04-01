@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/interactive-rating-component-OkXTr28fwA)
+- Live Site URL: [Add live site URL here](https://mouwaficbdr.github.io/interactive-rating-component-main/)
 
 ## My process
 
@@ -53,5 +53,5 @@ const computedStyle = getComputedStyle(document.documentElement);
 
 ## Author
 
-- Frontend Mentor - [@Mouwvfic](https://www.frontendmentor.io/profile/Mouwvfic)
+- Frontend Mentor - [@Mouwvfic](https://www.frontendmentor.io/profile/@mouwaficbdr)
 - Twitter - [@DevOnRoad](https://www.twitter.com/DevOnRoad)
